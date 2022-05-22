@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-    char s[40], temp1[40];
+    char s[40];
     int w, h, i, j, temp2;
     double temp, result;
     // открываем файл для чтения
