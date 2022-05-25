@@ -6,7 +6,7 @@ int main() {
     float temp, percent;
     char s[40];
     // открываем файл для чтения и записи
-    FILE *f1 = fopen("chisla.txt", "r+");
+    FILE *f1 = fopen("chisla.txt", "r+a");
 
     if (!f1) {
         printf("ОШИБКА ЧТЕНИЯ");
